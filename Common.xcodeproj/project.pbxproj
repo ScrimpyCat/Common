@@ -69,6 +69,34 @@
 			remoteGlobalIDString = F3A97F2019A8F79400F21E00;
 			remoteInfo = CommonGLTests;
 		};
+		F3AF31FD1DCBF9F600CAD472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F362029717AC3FFD00153E85 /* CommonC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F304379B1C62DFA200388C74;
+			remoteInfo = "CommonC-iOS";
+		};
+		F3AF31FF1DCBF9F600CAD472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F362029717AC3FFD00153E85 /* CommonC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F30437A41C62DFA200388C74;
+			remoteInfo = "CommonC-iOSTests";
+		};
+		F3AF32061DCBF9F600CAD472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F36202DA17AC404800153E85 /* CommonObjc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F30438071C62EC2000388C74;
+			remoteInfo = "CommonObjc-iOS";
+		};
+		F3AF32081DCBF9F600CAD472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F36202DA17AC404800153E85 /* CommonObjc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F30438101C62EC2000388C74;
+			remoteInfo = "CommonObjc-iOSTests";
+		};
 		F3F9B5E517B935E100D50297 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F36202DA17AC404800153E85 /* CommonObjc.xcodeproj */;
@@ -224,6 +252,8 @@
 			children = (
 				F362029D17AC3FFE00153E85 /* CommonC.framework */,
 				F362029F17AC3FFE00153E85 /* CommonCTests.xctest */,
+				F3AF31FE1DCBF9F600CAD472 /* CommonC.framework */,
+				F3AF32001DCBF9F600CAD472 /* CommonC-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -233,6 +263,8 @@
 			children = (
 				F36202E017AC404800153E85 /* CommonObjc.framework */,
 				F36202E217AC404800153E85 /* CommonObjcTests.octest */,
+				F3AF32071DCBF9F600CAD472 /* CommonObjc.framework */,
+				F3AF32091DCBF9F600CAD472 /* CommonObjc-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -306,6 +338,7 @@
 		F362022417AC3FD900153E85 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0720;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Stefan Johnson";
 			};
@@ -366,7 +399,7 @@
 		F36202E217AC404800153E85 /* CommonObjcTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = CommonObjcTests.octest;
+			path = CommonObjcTests.xctest;
 			remoteRef = F36202E117AC404800153E85 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -382,6 +415,34 @@
 			fileType = wrapper.cfbundle;
 			path = CommonGLTests.xctest;
 			remoteRef = F3A97F3519A8F79500F21E00 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3AF31FE1DCBF9F600CAD472 /* CommonC.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CommonC.framework;
+			remoteRef = F3AF31FD1DCBF9F600CAD472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3AF32001DCBF9F600CAD472 /* CommonC-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "CommonC-iOSTests.xctest";
+			remoteRef = F3AF31FF1DCBF9F600CAD472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3AF32071DCBF9F600CAD472 /* CommonObjc.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CommonObjc.framework;
+			remoteRef = F3AF32061DCBF9F600CAD472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3AF32091DCBF9F600CAD472 /* CommonObjc-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "CommonObjc-iOSTests.xctest";
+			remoteRef = F3AF32081DCBF9F600CAD472 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

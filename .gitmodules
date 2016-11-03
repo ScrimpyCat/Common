@@ -1,0 +1,3 @@
+[submodule "CommonC"]
+	path = CommonC
+	url = https://github.com/ScrimpyCat/CommonC.git
